@@ -49,8 +49,10 @@ def self.count
     else 
     artist_hash[artist_hash] = 1 
   end 
+end
   return artist_hash
 end
+
    
   
   
