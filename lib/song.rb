@@ -12,7 +12,7 @@ attr_accessor :artist, :genre, :name
     @artist = artist
     @genre = genre
     @@count += 1
-    @@genres << genre
+    @@genre << genre
     @@artists << artist
   end
 
