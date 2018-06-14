@@ -41,6 +41,8 @@ def self.count
     return genre_hash
   end
   
+  def self.artist_count
+    
    
   
   
