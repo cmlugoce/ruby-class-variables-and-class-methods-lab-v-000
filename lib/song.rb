@@ -13,14 +13,19 @@ attr_accessor :artists, :genre, :count
     
   end 
   
-  def self.count
-    @@album_count
+  
+  def self.artists
+   @@artists
   end
   
   @@genres = []
   
   def self.genres
     @@genres.uniq 
+  end
+  
+  def self.genre_count
+    @@count 
   end
    
   
