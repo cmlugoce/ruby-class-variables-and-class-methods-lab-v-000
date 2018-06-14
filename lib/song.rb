@@ -31,7 +31,9 @@ def self.count
   end
   
   def self.genre_count
-    @@count 
+    genre_hash = {}
+    genre_hash.each do |genre|(genre)
+    if 
   end
    
   
