@@ -7,4 +7,4 @@ attr_accessor :artists, :genre, :genre_count
     @@count += 1 
   end 
   
-  def
+  
