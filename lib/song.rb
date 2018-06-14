@@ -34,6 +34,12 @@ def self.count
     genre_hash = {}
     genre_hash.each do |genre|(genre)
     if !genre_hash.include?(genre)
+      genre_hash[genre] = 0
+      end
+      genre_hash[genre] += 1
+    end
+    return genre_hash
+  end
   end
    
   
