@@ -50,6 +50,7 @@ def self.count
     artist_hash[artist_hash] = 1 
   end 
  artist_hash
+ end
 end
 
    
