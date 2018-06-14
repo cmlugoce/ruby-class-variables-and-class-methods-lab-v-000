@@ -1,4 +1,4 @@
 class Song 
   
-  @@song = song 
+  
   
