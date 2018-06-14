@@ -42,7 +42,15 @@ def self.count
   end
   
   def self.artist_count
-    
+    artist_hash = {}
+    @@artists.each do |artist|(artist)
+    if !artist_hash.include?(artist)
+      artist_hash[artist] = 0 
+    end 
+    artist_hash[artist_hash] += 1 
+  end 
+  return artist_hash
+end
    
   
   
